@@ -112,12 +112,22 @@
       <h1 class="tittle">Contact me</h1>
         <div class="form-container">
         <label for="name">Your name</label>
-        <input type="text" placeholder="Enter your name here">
+        <input class="name" type="text" placeholder="Enter your name here">
         <label for="email">Email</label>
-        <input type="email" placeholder="Enter your email here">
+        <input class="email" type="email" placeholder="Enter your email here">
         <label for="message">Message</label>
-        <textarea name="message" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea>
-        <button>Send</button>
+        <textarea name="message" class="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+        <button class="submit">Send</button>
+      </div>
+      <div class="modal">
+        <div class="header">
+          <img src="img/success.png" alt="">
+        </div>
+        <div class="body-modal">
+          <h1>Thank You</h1>
+          <p>Your message has been sent successfully</p>
+          <button id="submit">OK</button>
+        </div>
       </div>
     </section>
     <footer>
